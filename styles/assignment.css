@@ -271,3 +271,131 @@ nav li a {
     margin-top: 30px;
     border-radius: 20px;
 }
+
+/* ---  Get in Touch Section --- */
+
+
+.get-in-touch-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cta-description {
+    font-size: 20px;
+    color: rgba(37, 36, 50, 0.7);
+    max-width: 700px;
+    margin: 20px auto 40px auto;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* --- Contact Form Styles --- */
+.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Name and Email field row (Flexbox) */
+.form-row {
+    display: flex;
+    gap: 30px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+/* Individual input  */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label Styling */
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Input and Textarea styling */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+/* Textarea resizing */
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Input focus state */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: rgba(78, 71, 255, 1);
+    outline: none;
+}
+
+
+.contact-form .btn-primary {
+    margin-top: 20px;
+}
+
+
+
+/* --- Footer Section --- */
+
+.footer-section {
+    background-color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Footer Logo Styling */
+.footer-logo {
+    font-size: 40px;
+    font-weight: bold;
+
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 20px;
+}
+
+/* Footer Description */
+.footer-description {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    line-height: 1.5;
+}
+
+/* Footer Navigation Links */
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.footer-nav ul li a:hover {
+    color: rgba(78, 71, 255, 1);
+}
